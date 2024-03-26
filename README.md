@@ -3,6 +3,7 @@
 
 
 
+
 <table class="tg">
 <thead>
   <tr>
@@ -113,7 +114,7 @@
   </tr>
   <tr>
     <td class="tg-baqh" rowspan="6">ViT-based</td>
-    <td class="tg-0lax" rowspan="4">LightWeight Tracker</td>
+    <td class="tg-baqh" rowspan="4">LightWeight Tracker</td>
     <td class="tg-baqh">HiT</td>
     <td class="tg-baqh">ICCV 23</td>
     <td class="tg-baqh">64.7</td>
@@ -130,7 +131,7 @@
     <td class="tg-baqh">39.7</td>
     <td class="tg-baqh">1.0G</td>
     <td class="tg-baqh">9.6M</td>
-    <td class="tg-baqh">293.4</td>
+    <td class="tg-mxrt">293.4</td>
   </tr>
   <tr>
     <td class="tg-baqh">LiteTrack</td>
@@ -190,7 +191,7 @@
     <td class="tg-baqh">121.4</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">UAV Tracker</td>
+    <td class="tg-baqh" rowspan="2">UAV Tracker</td>
     <td class="tg-baqh">Aba-ViTrack</td>
     <td class="tg-baqh">ICCV 23</td>
     <td class="tg-baqh">85.9</td>
@@ -207,7 +208,7 @@
     <td class="tg-baqh">55.3</td>
     <td class="tg-baqh">2.4G</td>
     <td class="tg-baqh">7.9M</td>
-    <td class="tg-baqh">176.8</td>
+    <td class="tg-vkwr">176.8</td>
   </tr>
   <tr>
     <td class="tg-baqh"><span style="font-style:normal">AVTrack-DeiT</span></td>
@@ -226,7 +227,7 @@
     <td class="tg-baqh">56.4</td>
     <td class="tg-baqh">0.97M-1.9G</td>
     <td class="tg-baqh">6.6-7.9M</td>
-    <td class="tg-baqh">252.7</td>
+    <td class="tg-6ho8">252.7</td>
   </tr>
 </tbody>
 </table>
