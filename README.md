@@ -6,8 +6,7 @@
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-baqh" colspan="2"></th>
-    <th class="tg-baqh" rowspan="2">Tracker</th>
+    <th class="tg-baqh" colspan="3" rowspan="2">Tracker<br><br><br><br>  </th>
     <th class="tg-baqh" rowspan="2">Source</th>
     <th class="tg-baqh" colspan="2">DTB70</th>
     <th class="tg-baqh" colspan="2">UAVDT</th>
@@ -20,7 +19,6 @@
     <th class="tg-baqh" rowspan="2">Avg.FPS</th>
   </tr>
   <tr>
-    <th class="tg-baqh" colspan="2" rowspan="5">CNN-based<br><br><br></th>
     <th class="tg-baqh">Prec.</th>
     <th class="tg-baqh">Succ.</th>
     <th class="tg-baqh">Prec.</th>
@@ -37,80 +35,81 @@
 </thead>
 <tbody>
   <tr>
-    <th class="tg-baqh">TCTrack</th>
-    <th class="tg-baqh">CVPR 22</th>
-    <th class="tg-baqh">81.2</th>
-    <th class="tg-baqh">62.2</th>
-    <th class="tg-baqh">72.5</th>
-    <th class="tg-baqh">53.0</th>
-    <th class="tg-baqh">79.9</th>
-    <th class="tg-baqh">59.4</th>
-    <th class="tg-baqh">80.0</th>
-    <th class="tg-baqh">60.5</th>
-    <th class="tg-baqh">78.0</th>
-    <th class="tg-baqh">59.9</th>
-    <th class="tg-baqh">61.9</th>
-    <th class="tg-baqh">45.7</th>
-    <th class="tg-baqh">8.9G</th>
-    <th class="tg-baqh">10.5M</th>
-    <th class="tg-baqh">139.6</th>
+    <td class="tg-baqh" colspan="2" rowspan="4">CNN-based</td>
+    <td class="tg-baqh">TCTrack</td>
+    <td class="tg-baqh">CVPR 22</td>
+    <td class="tg-baqh">81.2</td>
+    <td class="tg-baqh">62.2</td>
+    <td class="tg-baqh">72.5</td>
+    <td class="tg-baqh">53.0</td>
+    <td class="tg-baqh">79.9</td>
+    <td class="tg-baqh">59.4</td>
+    <td class="tg-baqh">80.0</td>
+    <td class="tg-baqh">60.5</td>
+    <td class="tg-baqh">78.0</td>
+    <td class="tg-baqh">59.9</td>
+    <td class="tg-baqh">61.9</td>
+    <td class="tg-baqh">45.7</td>
+    <td class="tg-baqh">8.9G</td>
+    <td class="tg-baqh">10.5M</td>
+    <td class="tg-baqh">139.6</td>
   </tr>
   <tr>
-    <th class="tg-baqh">UDAT</th>
-    <th class="tg-baqh">CVPR 22</th>
-    <th class="tg-baqh">80.6</th>
-    <th class="tg-baqh">61.8</th>
-    <th class="tg-baqh">80.1</th>
-    <th class="tg-baqh">59.2</th>
-    <th class="tg-baqh">81.6</th>
-    <th class="tg-baqh">61.9</th>
-    <th class="tg-baqh">76.1</th>
-    <th class="tg-baqh">59.0</th>
-    <th class="tg-baqh">77.8</th>
-    <th class="tg-baqh">58.5</th>
-    <th class="tg-baqh">64.8</th>
-    <th class="tg-baqh">48.7</th>
-    <th class="tg-baqh">23.2G</th>
-    <th class="tg-baqh">55.1M</th>
-    <th class="tg-baqh">31.3</th>
+    <td class="tg-baqh">UDAT</td>
+    <td class="tg-baqh">CVPR 22</td>
+    <td class="tg-baqh">80.6</td>
+    <td class="tg-baqh">61.8</td>
+    <td class="tg-baqh">80.1</td>
+    <td class="tg-baqh">59.2</td>
+    <td class="tg-baqh">81.6</td>
+    <td class="tg-baqh">61.9</td>
+    <td class="tg-baqh">76.1</td>
+    <td class="tg-baqh">59.0</td>
+    <td class="tg-baqh">77.8</td>
+    <td class="tg-baqh">58.5</td>
+    <td class="tg-baqh">64.8</td>
+    <td class="tg-baqh">48.7</td>
+    <td class="tg-baqh">23.2G</td>
+    <td class="tg-baqh">55.1M</td>
+    <td class="tg-baqh">31.3</td>
   </tr>
   <tr>
-    <th class="tg-baqh">ABDNet</th>
-    <th class="tg-baqh">RAL 23</th>
-    <th class="tg-baqh">76.8</th>
-    <th class="tg-baqh">59.6</th>
-    <th class="tg-baqh">75.5</th>
-    <th class="tg-baqh">55.3</th>
-    <th class="tg-baqh">75.0</th>
-    <th class="tg-baqh">57.2</th>
-    <th class="tg-baqh">79.3</th>
-    <th class="tg-baqh">60.7</th>
-    <th class="tg-baqh">77.3</th>
-    <th class="tg-baqh">59.1</th>
-    <th class="tg-baqh">63.9</th>
-    <th class="tg-baqh">48.7</th>
-    <th class="tg-baqh">8.3G</th>
-    <th class="tg-baqh">12.3M</th>
-    <th class="tg-baqh">125.4</th>
+    <td class="tg-baqh">ABDNet</td>
+    <td class="tg-baqh">RAL 23</td>
+    <td class="tg-baqh">76.8</td>
+    <td class="tg-baqh">59.6</td>
+    <td class="tg-baqh">75.5</td>
+    <td class="tg-baqh">55.3</td>
+    <td class="tg-baqh">75.0</td>
+    <td class="tg-baqh">57.2</td>
+    <td class="tg-baqh">79.3</td>
+    <td class="tg-baqh">60.7</td>
+    <td class="tg-baqh">77.3</td>
+    <td class="tg-baqh">59.1</td>
+    <td class="tg-baqh">63.9</td>
+    <td class="tg-baqh">48.7</td>
+    <td class="tg-baqh">8.3G</td>
+    <td class="tg-baqh">12.3M</td>
+    <td class="tg-baqh">125.4</td>
   </tr>
   <tr>
-    <th class="tg-baqh">SGDViT</th>
-    <th class="tg-baqh">ICRA 23</th>
-    <th class="tg-baqh">78.5</th>
-    <th class="tg-baqh">60.4</th>
-    <th class="tg-baqh">65.7</th>
-    <th class="tg-baqh">48.0</th>
-    <th class="tg-baqh">72.1</th>
-    <th class="tg-baqh">52.1</th>
-    <th class="tg-baqh">75.4</th>
-    <th class="tg-baqh">57.5</th>
-    <th class="tg-baqh">86.3</th>
-    <th class="tg-baqh">66.1</th>
-    <th class="tg-baqh">61.3</th>
-    <th class="tg-baqh">45.7</th>
-    <th class="tg-baqh">11.3G</th>
-    <th class="tg-baqh">23.3M</th>
-    <th class="tg-baqh">107.6</th>
+    <td class="tg-baqh">SGDViT</td>
+    <td class="tg-baqh">ICRA 23</td>
+    <td class="tg-baqh">78.5</td>
+    <td class="tg-baqh">60.4</td>
+    <td class="tg-baqh">65.7</td>
+    <td class="tg-baqh">48.0</td>
+    <td class="tg-baqh">72.1</td>
+    <td class="tg-baqh">52.1</td>
+    <td class="tg-baqh">75.4</td>
+    <td class="tg-baqh">57.5</td>
+    <td class="tg-baqh">86.3</td>
+    <td class="tg-baqh">66.1</td>
+    <td class="tg-baqh">61.3</td>
+    <td class="tg-baqh">45.7</td>
+    <td class="tg-baqh">11.3G</td>
+    <td class="tg-baqh">23.3M</td>
+    <td class="tg-baqh">107.6</td>
   </tr>
   <tr>
     <td class="tg-baqh" rowspan="6">ViT-based</td>
