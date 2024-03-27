@@ -200,7 +200,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <td class="tg-baqh" rowspan="4">UAV Tracker</td>
     <td class="tg-baqh">Aba-ViTrack</td>
     <td class="tg-baqh">ICCV 23</td>
-    <td class="tg-baqh">85.9</td>
+    <td class="tg-baqh"><span style="color:red; font-weight:bold;">85.9</span></td>
     <td class="tg-baqh">66.4</td>
     <td class="tg-baqh">83.4</td>
     <td class="tg-baqh">59.9</td>
