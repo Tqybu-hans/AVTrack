@@ -6,7 +6,7 @@
 
 AVTrack contributes to the field of UAV tracking in several key ways. 
 *  Innovative Techniques: We introduce novel approaches, such as the activation module and view-invariant representation via mutual information maximization, which enhance the adaptability and efficiency of the tracking system and can can be integrated easily in existing systems. In contrast to the variable token number approach of Aba-ViTrack, which enhances efficiency in an unstructured manner, our DEEM employs a structured approach, resulting in greater effectiveness. These innovations contribute to advancing the state-of-the-art in UAV tracking technology. 
-*   Enhanced Speed: Our method achieves a higher speed than Aba-ViTrack. This advantage becomes more pronounced, specifically, <\u>81.2 FPS vs. 42.1 FPS<\u> when evaluated on the NVIDIA Jetson AGX Xavier 32GB. This increased speed is vital for real-time UAV tracking applications, especially for platforms with limited computational resources and low power consumption requirements. 
+*   Enhanced Speed: Our method achieves a higher speed than Aba-ViTrack. This advantage becomes more pronounced, specifically, <u>81.2 FPS vs. 42.1 FPS<\u> when evaluated on the NVIDIA Jetson AGX Xavier 32GB. This increased speed is vital for real-time UAV tracking applications, especially for platforms with limited computational resources and low power consumption requirements. 
 *   Balanced Performance: Despite prioritizing speed, AVTrack achieves SOTA performance on multiple UAV tracking benchmarks. AVTrack can serve as a strong baseline for further research.
 
 <table class="tg">
