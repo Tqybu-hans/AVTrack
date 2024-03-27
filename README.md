@@ -2,7 +2,7 @@
 ### Once our paper is accepted, our code will be open-sourced.
 
 
-\hr
+<hr class="hr1"/>
 
 <table class="tg">
 <thead>
