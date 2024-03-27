@@ -9,6 +9,14 @@ AVTrack contributes to the field of UAV tracking in several key ways:
 *   Enhanced Speed: Our method achieves a higher speed than Aba-ViTrack. This advantage becomes more pronounced, specifically,  **81.2 FPS vs. 42.1 FPS**    when evaluated on the NVIDIA Jetson AGX Xavier 32GB. This increased speed is vital for real-time UAV tracking applications, especially for platforms with limited computational resources and low power consumption requirements. 
 *   Balanced Performance: Despite prioritizing speed, AVTrack achieves SOTA performance on multiple UAV tracking benchmarks. AVTrack can serve as a strong baseline for further research.
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+</style>
 <table class="tg">
 <thead>
   <tr>
@@ -18,7 +26,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <th class="tg-baqh" colspan="2">UAVDT</th>
     <th class="tg-baqh" colspan="2">VisDrone</th>
     <th class="tg-baqh" colspan="2">UAV123</th>
-    <th class="tg-baqh" colspan="2"><span style="font-style:normal">UAV123@10fps</span></th>
+    <th class="tg-baqh" colspan="2">UAV123@10fps</th>
     <th class="tg-baqh" colspan="2">WebUAV-3M</th>
     <th class="tg-baqh" rowspan="2">FLOPs</th>
     <th class="tg-baqh" rowspan="2">Params</th>
@@ -118,7 +126,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <td class="tg-baqh">107.6</td>
   </tr>
   <tr>
-    <td class="tg-baqh" rowspan="6">ViT-based</td>
+    <td class="tg-baqh" rowspan="8">ViT-based</td>
     <td class="tg-baqh" rowspan="4">LightWeight Tracker</td>
     <td class="tg-baqh">HiT</td>
     <td class="tg-baqh">ICCV 23</td>
@@ -136,7 +144,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <td class="tg-baqh">39.7</td>
     <td class="tg-baqh">1.0G</td>
     <td class="tg-baqh">9.6M</td>
-    <td class="tg-mxrt">293.4</td>
+    <td class="tg-baqh">293.4</td>
   </tr>
   <tr>
     <td class="tg-baqh">LiteTrack</td>
@@ -178,7 +186,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
   </tr>
   <tr>
     <td class="tg-baqh">SMAT</td>
-    <td class="tg-baqh"><span style="font-style:normal">WACV 24</span></td>
+    <td class="tg-baqh">WACV 24</td>
     <td class="tg-baqh">81.9</td>
     <td class="tg-baqh">64.0</td>
     <td class="tg-baqh">80.8</td>
@@ -196,7 +204,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <td class="tg-baqh">121.4</td>
   </tr>
   <tr>
-    <td class="tg-baqh" rowspan="2">UAV Tracker</td>
+    <td class="tg-baqh" rowspan="4">UAV Tracker</td>
     <td class="tg-baqh">Aba-ViTrack</td>
     <td class="tg-baqh">ICCV 23</td>
     <td class="tg-baqh">85.9</td>
@@ -213,11 +221,47 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <td class="tg-baqh">55.3</td>
     <td class="tg-baqh">2.4G</td>
     <td class="tg-baqh">7.9M</td>
-    <td class="tg-vkwr">176.8</td>
+    <td class="tg-baqh">176.8</td>
   </tr>
   <tr>
-    <td class="tg-baqh"><span style="font-style:normal">AVTrack-DeiT</span></td>
-    <td class="tg-baqh">Ours</td>
+    <td class="tg-baqh">AVTrack-ViT</td>
+    <td class="tg-baqh" rowspan="3">Ours</td>
+    <td class="tg-baqh">81.3</td>
+    <td class="tg-baqh">63.3</td>
+    <td class="tg-baqh">79.9</td>
+    <td class="tg-baqh">57.7</td>
+    <td class="tg-baqh">86.4</td>
+    <td class="tg-baqh">65.9</td>
+    <td class="tg-baqh">84.0</td>
+    <td class="tg-baqh">66.2</td>
+    <td class="tg-baqh">83.2</td>
+    <td class="tg-baqh">65.7</td>
+    <td class="tg-baqh">69.1</td>
+    <td class="tg-baqh">53.7</td>
+    <td class="tg-baqh">0.97M-2.4G</td>
+    <td class="tg-baqh">3.5M-8.0M</td>
+    <td class="tg-baqh">247.5</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">AVTrack-EVA</td>
+    <td class="tg-baqh">82.6</td>
+    <td class="tg-baqh">64.0</td>
+    <td class="tg-baqh">78.8</td>
+    <td class="tg-baqh">57.2</td>
+    <td class="tg-baqh">84.4</td>
+    <td class="tg-baqh">63.5</td>
+    <td class="tg-baqh">83.0</td>
+    <td class="tg-baqh">64.7</td>
+    <td class="tg-baqh">81.2</td>
+    <td class="tg-baqh">63.5</td>
+    <td class="tg-baqh">67.9</td>
+    <td class="tg-baqh">52.9</td>
+    <td class="tg-baqh">0.67M-1.7G</td>
+    <td class="tg-baqh">2.4M-5.8M</td>
+    <td class="tg-baqh">281.6</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">AVTrack-DeiT</td>
     <td class="tg-baqh">84.3</td>
     <td class="tg-baqh">65.0</td>
     <td class="tg-baqh">82.1</td>
@@ -231,8 +275,8 @@ AVTrack contributes to the field of UAV tracking in several key ways:
     <td class="tg-baqh">70.0</td>
     <td class="tg-baqh">56.4</td>
     <td class="tg-baqh">0.97M-1.9G</td>
-    <td class="tg-baqh">6.6-7.9M</td>
-    <td class="tg-6ho8">252.7</td>
+    <td class="tg-baqh">3.5M-7.9M</td>
+    <td class="tg-baqh">252.7</td>
   </tr>
 </tbody>
 </table>
