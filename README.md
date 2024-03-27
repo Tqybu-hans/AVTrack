@@ -9,14 +9,7 @@ AVTrack contributes to the field of UAV tracking in several key ways:
 *   Enhanced Speed: Our method achieves a higher speed than Aba-ViTrack. This advantage becomes more pronounced, specifically,  **81.2 FPS vs. 42.1 FPS**    when evaluated on the NVIDIA Jetson AGX Xavier 32GB. This increased speed is vital for real-time UAV tracking applications, especially for platforms with limited computational resources and low power consumption requirements. 
 *   Balanced Performance: Despite prioritizing speed, AVTrack achieves SOTA performance on multiple UAV tracking benchmarks. AVTrack can serve as a strong baseline for further research.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-</style>
+
 <table class="tg">
 <thead>
   <tr>
